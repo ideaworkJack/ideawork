@@ -108,6 +108,7 @@ public class GirlFragment extends BaseFragment implements DataView, SwipeRefresh
                     if (!mIsFirstTouchedBottom) {
                         onRefresh();
                     } else mIsFirstTouchedBottom = false;
+
                 }
             }
         };
